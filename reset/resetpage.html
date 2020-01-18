@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forget Password</title>
+        <link rel="stylesheet" href="forgetpass.css">
+        <link rel="stylesheet" href="../Final-Project-CSCI426/Our Project/src/css/main.css">
+    </head>
+
+    <body>
+            <div class="limiter">
+                    <div class="container-login100" style="background-color: rgb(255, 255, 255);">
+                        <div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
+
+                                <form method="POST" class="forgot-form">
+                                    <?
+                                        php echo display_error(); 
+                                    ?>
+                                    <p>Password:</p>
+                                    <div class="wrap-input100 validate-input">
+                                        <input class="input100" type="password" name="pass_1" value="">
+                                    </div>
+                                    <p>Confirm Password:</p>
+                                    <div class="wrap-input100 validate-input">
+                                        <input class="input100" type="password" name="cpass_1" value="">
+                                    </div>
+                                    <input class="reset-button" type="submit" value="Update Password" name="resetemailsubmit">
+                            </form>
+                        </div>
+                    </div>
+            </div>
+    </body>
+</html>

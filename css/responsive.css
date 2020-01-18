@@ -1,0 +1,249 @@
+@media screen and (max-width: 1500px) {
+    #header {
+        height: 30px;
+        padding: 25px 0;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        transition: all 0.5s;
+        z-index: 997;
+        padding-right: 10%;
+        padding-left: 10%;
+        background-color: black;
+      }
+
+      .business-info1 img{
+        width: 300px;
+        height: 200px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 4px 2px rgba(12, 12, 12, 0.2);
+      }
+
+      .business-info img{
+        width: 300px;
+        height: 200px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 4px 2px rgba(12, 12, 12, 0.2);
+      }
+}
+
+@media screen and (max-width: 1080px) {
+    .nav-menu ,
+.nav-menu a:hover {
+  color: orange;
+  font-size: 13px;
+  transition: 0.3s;
+}
+    #header {
+        height: 15px;
+        padding: 25px 0;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        transition: all 0.5s;
+        z-index: 997;
+        padding-right: 8%;
+        padding-left: 8%;
+        background-color: black;
+      }
+    .nav-menu a {
+        padding: 6px;
+        text-decoration: none;
+        display: inline-block;
+        color: #ff8800;
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        outline: none;
+        letter-spacing: 1px;
+      }
+
+      .business-info1 {
+        background-color: rgb(216, 216, 216);
+        padding: 0% 4%;
+      }
+
+      .business-info {
+        background-color: white;
+        padding: 0% 4%;
+      }
+}
+
+@media screen and (max-width: 840px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-menu {
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        padding-top: 6vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-menu li{
+        opacity: 0;
+        margin-top: 50px;
+        background-color: black;
+    }
+    .mob-nav {
+        display: block;
+        float: right;
+        margin-top: -15px;
+        background-color: black;
+    }
+    .dropdown-content a {
+        color: #ff8800;
+        padding-top: 12px;
+        margin-left: -90px;
+        text-decoration: none;
+        display: block;
+        background-color: black;
+      }
+      #locations .nav-tabs a {
+        border: none;
+        border-radius: 50px;
+        font-weight: 600;
+        background-color: #0e1b4d;
+        color: #fff;
+        padding: 10px 70px;
+        text-decoration: none;
+      }
+
+      #locations .nav-tabs a:hover {
+        border: none;
+        border-radius: 50px;
+        font-weight: 600;
+        background-color: #ff8800;
+        color: #fff;
+        padding: 10px 70px;
+        text-decoration: none;
+      }
+
+      .section-header {
+        margin-bottom: 40px;
+        position: relative;
+        padding-bottom: 10px;
+      }
+    
+      .section-header::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: #ff8800;
+        bottom: 0;
+        left: calc(50% - 25px);
+      }
+      
+      .section-header h2 {
+        font-size: 26px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      
+      .section-header p {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+        color: #9195a2;
+      }
+
+      .business-info p {
+        margin-bottom: 15px;
+        font-size: 12px; 
+       }
+     
+       .business-info1 p {
+         margin-bottom: 15px;
+         font-size: 12px; 
+        }
+        .business-info h1 {
+            font-size: 18px; 
+        }
+         
+        .business-info1 h1 {
+            font-size: 18px; 
+        }
+}
+
+@media screen and (max-width: 650px) {
+    .loc-img img{
+        width: 80%;
+        text-align: center;
+    }
+
+      #locations .nav-tabs li {
+          margin-top: 25px;
+      }
+
+      #intro h1 {
+        color: #fff;
+        font-family: "Raleway", sans-serif;
+        font-size: 46px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      #intro p {
+        color: #ebebeb;
+        font-weight: 600;
+        font-size: 15px;
+      }
+
+      .recent-games-list {
+        text-align: center;
+      }
+      .recent-games-list li {
+        display: inline-block;
+        margin: 10px 10px;
+      }
+
+      .business-info-detail {
+        display: block;
+        align-items: center;
+        text-align: center;
+        padding: 50px 0px;
+      }
+
+      .business-info img{
+        width: 200px;
+        height: 100px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 4px 2px rgba(12, 12, 12, 0.2);
+      }
+
+      .business-info1 img{
+        width: 200px;
+        height: 100px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 4px 2px rgba(12, 12, 12, 0.2);
+      }
+}
+
+.mob-nav-active {
+    transform: translateX(0%);
+  }
+
+  @keyframes navLinkFade {
+      from {
+        opacity: 0;
+        transform: translateX(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+  }

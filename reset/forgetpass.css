@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(#ffffff, #666666, #000000);
+    background-size: cover;
+    height: 100vh;
+}
+
+.forgot-form {
+    /* align-content: center; */
+    text-align: center;
+}
+
+.reset-button {
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: #000000;
+    color: #ff8800;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #000000;
+    padding: 5px;
+}
+
+.reset-button:hover {
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ff8800;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+
+.forgot-form p{
+    font-size: 20px;
+    margin: 25px auto;
+}
